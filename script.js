@@ -46,9 +46,9 @@ const honeymoon = {
 
   // Liefdebrief-inhoud
   loveLetter: [
-    "Van die oomblik toe ons begin droom van ons toekoms, het ek geweet ek wil iets werklik spesiaal vir ons huwelijksreis voorberei.",
-    "Pak jou tas vir die turkooiswater, antieke klipstrate en asemrowende eilande van die Kroatiese Adriatiese kus.",
-    "Hieronder is ons roete deur Split, Dubrovnik, Stari Grad en Trogir. Sommige dae is heeltemal beplan, terwyl ander oopstaan vir ons eie avontuur saam!"
+    "Ek het hierdie klein passion project aanmekaar geslaan in my tussen tyd. Dit is iets om vir uit te sien.",
+    "Maak gereed want ons pak amper ons tasse Kroasië toe!",
+    "Hieronder is informasie oor ons roete deur Split, Dubrovnik, Stari Grad en Trogir."
   ],
 
   // Gedetailleerde dag-vir-dag roete
@@ -172,7 +172,7 @@ const honeymoon = {
     "Skoene (plakkies, tekkies, sneakers)",
     "Ligte baadjie",
     "Klere",
-    "Medisyne voorskrif en dokters brief",
+    "Europa krag adapter proppe",
     "Swemklere en handoek",
     "Sonbril en hoed",
     "Water bottel"
@@ -204,7 +204,7 @@ const honeymoon = {
   },
 
   // Playlist-skakel
-  playlistLinkUrl: "https://music.apple.com/za/playlist/your-playlist/id1234567890",
+  playlistLinkUrl: "https://music.apple.com/za/playlist/pl.u-pMylleaiW29p2dy?a=join&it=8zaXXvVi3MgEMewc4aejN",
 
   // Travel tickets link
   surprise: {
@@ -429,7 +429,6 @@ function populateContent() {
   // Playlist
   document.getElementById('playlist-container').innerHTML = `
     <div class="playlist-link-card">
-      <p class="section-description">Ek het n playlist bymekaar gegooi vir ons</p>
       <a href="${honeymoon.playlistLinkUrl}" target="_blank" rel="noopener" class="btn btn-gold btn-large">Open playlist</a>
     </div>
   `;
